@@ -73,7 +73,7 @@
 #define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 #define MACVERSION      STRING_CONFIG_H_AUTHOR
 #define SOFTVERSION     SHORT_BUILD_VERSION
-#define CORP_WEBSITE    "www.sovol3d.com"
+#define CORP_WEBSITE    "abcraft19.duckdns.org"
 #define Screen_version  "Screen: V2.0"
 
 /**
@@ -2033,7 +2033,7 @@
  * the firmware with the feature disabled, reset EEPROM, and (optionally)
  * re-flash the firmware again with this feature enabled.
  */
-//#define PASSWORD_FEATURE
+#define PASSWORD_FEATURE
 #if ENABLED(PASSWORD_FEATURE)
   #define PASSWORD_LENGTH 4                 // (#) Number of digits (1-9). 3 or 4 is recommended
   #define PASSWORD_ON_STARTUP
@@ -2222,7 +2222,7 @@
 //
 // ULTIMAKER Controller.
 //
-//#define ULTIMAKERCONTROLLER
+#define ULTIMAKERCONTROLLER
 
 //
 // ULTIPANEL as seen on Thingiverse.
